@@ -1,0 +1,51 @@
+/* Welcome.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: rgb(184, 34, 34);
+    margin-right: 15px;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar h4 {
+    color: rgb(46, 4, 105);
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-danger {
+    margin-left: auto;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Icon styles */
+h1 > svg, h4 > svg {
+    margin-left: 10px;
+    color: #007bff;
+}
+.logo{
+    color: rgb(214, 23, 113);
+    margin: 0 15px;
+   
+}
